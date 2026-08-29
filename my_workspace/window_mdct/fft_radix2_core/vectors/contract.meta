@@ -1,0 +1,11 @@
+profile=FDK_AACLC_1024_Q31Q15_RAD2_V1
+fdk_commit=35f9c13cb6df0c5d4e7ba958ef2d251c48b8d1d9
+twiddle_octant_sha256=95eb626e5d5a6f44fdbd00f5700bb5f8b1b8e9425d20d374412968090d595ad9
+data=signed_q1.31
+coeff=signed_q1.15
+direction=forward_negative_exponent
+scale_mask_fft64=101111
+scale_mask_fft512=101111111
+rounding=arithmetic_truncation
+saturation=none
+overflow=wrap32

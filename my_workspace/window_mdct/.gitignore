@@ -1,0 +1,23 @@
+# Simulator/compiler products
+/build/
+/work/
+/questa_lib/
+/modelsim.ini
+/transcript
+/*.wlf
+*.o
+*.obj
+*.exe
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Vivado implementation products and generated reports
+/.vivado_mdct_runtime/
+/synth/*.rpt
+/synth/*.dcp
+/synth/*.log
+/synth/*.jou
+
+# Versioned source vectors under golden/ are intentionally tracked.

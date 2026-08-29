@@ -1,0 +1,4 @@
+case_id,name,description,frames,seed
+0,zero_transition,zero input across LONG/LONG/START/SHORT/STOP/LONG,6,0x4D444354
+1,impulse_boundaries,signed impulses at MDCT and short-block boundaries,6,0x4D444354
+2,extrema_prng,"DC extrema, alternating extrema, ramp and fixed-seed LCG",6,0x4D444354

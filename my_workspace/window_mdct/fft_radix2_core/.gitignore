@@ -1,0 +1,18 @@
+# Local build/simulator products.
+build/
+work/
+modelsim.ini
+transcript
+*.wlf
+*.exe
+
+# Python bytecode/cache.
+__pycache__/
+*.py[cod]
+
+# Derived verification results.  The authoritative committed vector set is:
+# input_fft.txt, output_fft.txt, output_fft_stage.txt, manifest.csv, contract.meta.
+vectors/output_fft_cpp*.txt
+vectors/output_fft_rtl.txt
+vectors/output_fft_numpy*
+vectors/compare_*.csv

@@ -1,0 +1,13 @@
+profile,twiddle_sha256,frame,case,mode,nfft,scale_exp,golden_generator
+FDK_AACLC_1024_Q31Q15_RAD2_V1,95eb626e5d5a6f44fdbd00f5700bb5f8b1b8e9425d20d374412968090d595ad9,0,fft512_zero,1,512,8,python_integer; must equal C++ with 0 LSB
+FDK_AACLC_1024_Q31Q15_RAD2_V1,95eb626e5d5a6f44fdbd00f5700bb5f8b1b8e9425d20d374412968090d595ad9,1,fft64_impulse,0,64,5,python_integer; must equal C++ with 0 LSB
+FDK_AACLC_1024_Q31Q15_RAD2_V1,95eb626e5d5a6f44fdbd00f5700bb5f8b1b8e9425d20d374412968090d595ad9,2,fft64_complex_tone,0,64,5,python_integer; must equal C++ with 0 LSB
+FDK_AACLC_1024_Q31Q15_RAD2_V1,95eb626e5d5a6f44fdbd00f5700bb5f8b1b8e9425d20d374412968090d595ad9,3,fft64_alternating,0,64,5,python_integer; must equal C++ with 0 LSB
+FDK_AACLC_1024_Q31Q15_RAD2_V1,95eb626e5d5a6f44fdbd00f5700bb5f8b1b8e9425d20d374412968090d595ad9,4,fft64_seeded_noise,0,64,5,python_integer; must equal C++ with 0 LSB
+FDK_AACLC_1024_Q31Q15_RAD2_V1,95eb626e5d5a6f44fdbd00f5700bb5f8b1b8e9425d20d374412968090d595ad9,5,fft64_two_tone,0,64,5,python_integer; must equal C++ with 0 LSB
+FDK_AACLC_1024_Q31Q15_RAD2_V1,95eb626e5d5a6f44fdbd00f5700bb5f8b1b8e9425d20d374412968090d595ad9,6,fft64_dc,0,64,5,python_integer; must equal C++ with 0 LSB
+FDK_AACLC_1024_Q31Q15_RAD2_V1,95eb626e5d5a6f44fdbd00f5700bb5f8b1b8e9425d20d374412968090d595ad9,7,fft64_edge_impulse,0,64,5,python_integer; must equal C++ with 0 LSB
+FDK_AACLC_1024_Q31Q15_RAD2_V1,95eb626e5d5a6f44fdbd00f5700bb5f8b1b8e9425d20d374412968090d595ad9,8,fft64_off_bin,0,64,5,python_integer; must equal C++ with 0 LSB
+FDK_AACLC_1024_Q31Q15_RAD2_V1,95eb626e5d5a6f44fdbd00f5700bb5f8b1b8e9425d20d374412968090d595ad9,9,fft512_complex_tone,1,512,8,python_integer; must equal C++ with 0 LSB
+FDK_AACLC_1024_Q31Q15_RAD2_V1,95eb626e5d5a6f44fdbd00f5700bb5f8b1b8e9425d20d374412968090d595ad9,10,fft512_seeded_noise,1,512,8,python_integer; must equal C++ with 0 LSB
+FDK_AACLC_1024_Q31Q15_RAD2_V1,95eb626e5d5a6f44fdbd00f5700bb5f8b1b8e9425d20d374412968090d595ad9,11,fft512_edge_mix,1,512,8,python_integer; must equal C++ with 0 LSB
